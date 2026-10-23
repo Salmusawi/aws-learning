@@ -1,0 +1,10 @@
+# Downloaded provider plugins (recreated by `terraform init`)
+.terraform/
+
+# State files: Terraform's record of what it created. Can contain secrets,
+# so never commit them. (In Stage 4 we move state to S3.)
+*.tfstate
+*.tfstate.*
+
+# Plan files saved with `terraform plan -out=...`
+*.tfplan
