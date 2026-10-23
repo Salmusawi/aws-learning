@@ -13,8 +13,8 @@ terraform {
 
 # How Terraform talks to AWS.
 provider "aws" {
-  region  = var.region # set in the variables.tf
-  profile = "personal" 
+  region              = var.region # set in the variables.tf
+  profile             = "personal"
   allowed_account_ids = ["165811308370"]
 
   default_tags {
