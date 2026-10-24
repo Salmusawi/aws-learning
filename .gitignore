@@ -8,3 +8,24 @@
 
 # Plan files saved with `terraform plan -out=...`
 *.tfplan
+
+# Variable files often hold secrets or per-person values
+*.tfvars
+*.tfvars.json
+
+# Local overrides and crash logs (crash.log can include request details)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+crash.*.log
+
+# Lambda build artifacts (Stage 2) and local env files
+*.zip
+build/
+.env
+.env.*
+
+# macOS
+.DS_Store

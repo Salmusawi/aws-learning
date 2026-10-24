@@ -6,7 +6,7 @@ Hands-on projects from learning AWS and Infrastructure as Code (Terraform), depl
 
 | # | Project | What it covers | Status |
 |---|---|---|---|
-| 01 | [Ask the Cloud](01-ask-the-cloud/) | S3 static site → API Gateway + Lambda → Amazon Bedrock | 🚧 Stage 1 |
+| 01 | [Ask the Cloud](01-ask-the-cloud/) | S3 static site → API Gateway + Lambda → Amazon Bedrock | 🚧 Stage 1 of 4 done |
 
 ## Tools
 
